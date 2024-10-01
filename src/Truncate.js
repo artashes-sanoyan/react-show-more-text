@@ -349,7 +349,11 @@ export default class Truncate extends React.Component {
 
   renderLine = (line, i, arr) => {
     if (i === arr.length - 1) {
-      return <span key={i}>{line}</span>;
+      return (
+        <span key={i} className="latest-line">
+          {line}
+        </span>
+      );
     } else {
       const br = <br key={i + "br"} />;
 
