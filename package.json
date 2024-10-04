@@ -46,7 +46,7 @@
   "author": "artashes-sanoyan <artashes-sanoyan@uney.com>",
   "license": "ISC",
   "peerDependencies": {
-    "react": "16 - 18.x"
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
